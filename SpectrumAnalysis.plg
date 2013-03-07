@@ -1,0 +1,113 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SpectrumAnalysis - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/SpectrumAnalysis.res" /d "_DEBUG" /d "_AFXDLL" "D:\Projects\SpectrumAnalysis\source\SpectrumAnalysis.rc"" 
+Creating temporary file "C:\DOCUME~1\QUYPS\LOCALS~1\Temp\RSPB6E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/SpectrumAnalysis.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Projects\SpectrumAnalysis\source\Axis.cpp"
+"D:\Projects\SpectrumAnalysis\source\DisplayPanel.cpp"
+"D:\Projects\SpectrumAnalysis\source\DisplaySource.cpp"
+"D:\Projects\SpectrumAnalysis\source\DisplaySpectrumSource.cpp"
+"D:\Projects\SpectrumAnalysis\source\DisplayWaveSource.cpp"
+"D:\Projects\SpectrumAnalysis\source\FFTmachine.cpp"
+"D:\Projects\SpectrumAnalysis\source\Filter.cpp"
+"D:\Projects\SpectrumAnalysis\source\Hamming.cpp"
+"D:\Projects\SpectrumAnalysis\source\Hanning.cpp"
+"D:\Projects\SpectrumAnalysis\source\Rectangle.cpp"
+"D:\Projects\SpectrumAnalysis\source\Signal.cpp"
+"D:\Projects\SpectrumAnalysis\source\SpectrumAnalysis.cpp"
+"D:\Projects\SpectrumAnalysis\source\SpectrumAnalysisDlg.cpp"
+"D:\Projects\SpectrumAnalysis\source\Wave.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\QUYPS\LOCALS~1\Temp\RSPB6E.tmp" 
+Creating temporary file "C:\DOCUME~1\QUYPS\LOCALS~1\Temp\RSPB6F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/SpectrumAnalysis.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Projects\SpectrumAnalysis\source\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\QUYPS\LOCALS~1\Temp\RSPB6F.tmp" 
+Creating temporary file "C:\DOCUME~1\QUYPS\LOCALS~1\Temp\RSPB70.tmp" with contents
+[
+WINMM.LIB /nologo /subsystem:windows /incremental:yes /pdb:"Debug/SpectrumAnalysis.pdb" /debug /machine:I386 /out:"Debug/SpectrumAnalysis.exe" /pdbtype:sept 
+.\Debug\Axis.obj
+.\Debug\DisplayPanel.obj
+.\Debug\DisplaySource.obj
+.\Debug\DisplaySpectrumSource.obj
+.\Debug\DisplayWaveSource.obj
+.\Debug\FFTmachine.obj
+.\Debug\Filter.obj
+.\Debug\Hamming.obj
+.\Debug\Hanning.obj
+.\Debug\Rectangle.obj
+.\Debug\Signal.obj
+.\Debug\SpectrumAnalysis.obj
+.\Debug\SpectrumAnalysisDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\Wave.obj
+.\Debug\SpectrumAnalysis.res
+]
+Creating command line "link.exe @C:\DOCUME~1\QUYPS\LOCALS~1\Temp\RSPB70.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Axis.cpp
+DisplayPanel.cpp
+D:\Projects\SpectrumAnalysis\source\DisplayPanel.cpp(465) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+D:\Projects\SpectrumAnalysis\source\DisplayPanel.cpp(507) : warning C4244: 'argument' : conversion from 'double' to 'long', possible loss of data
+D:\Projects\SpectrumAnalysis\source\DisplayPanel.cpp(509) : warning C4244: 'initializing' : conversion from 'double' to '__int16', possible loss of data
+D:\Projects\SpectrumAnalysis\source\DisplayPanel.cpp(533) : warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+D:\Projects\SpectrumAnalysis\source\DisplayPanel.cpp(670) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+D:\Projects\SpectrumAnalysis\source\DisplayPanel.cpp(673) : warning C4244: '=' : conversion from 'double' to 'long', possible loss of data
+DisplaySource.cpp
+DisplaySpectrumSource.cpp
+DisplayWaveSource.cpp
+FFTmachine.cpp
+Filter.cpp
+Hamming.cpp
+Hanning.cpp
+Rectangle.cpp
+Signal.cpp
+SpectrumAnalysis.cpp
+SpectrumAnalysisDlg.cpp
+D:\Projects\SpectrumAnalysis\source\SpectrumAnalysisDlg.cpp(739) : warning C4244: 'initializing' : conversion from 'double' to 'long', possible loss of data
+Wave.cpp
+D:\Projects\SpectrumAnalysis\source\Wave.cpp(531) : warning C4244: 'initializing' : conversion from 'double' to 'long', possible loss of data
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\QUYPS\LOCALS~1\Temp\RSPB72.tmp" with contents
+[
+/nologo /o"Debug/SpectrumAnalysis.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\Axis.sbr
+.\Debug\DisplayPanel.sbr
+.\Debug\DisplaySource.sbr
+.\Debug\DisplaySpectrumSource.sbr
+.\Debug\DisplayWaveSource.sbr
+.\Debug\FFTmachine.sbr
+.\Debug\Filter.sbr
+.\Debug\Hamming.sbr
+.\Debug\Hanning.sbr
+.\Debug\Rectangle.sbr
+.\Debug\Signal.sbr
+.\Debug\SpectrumAnalysis.sbr
+.\Debug\SpectrumAnalysisDlg.sbr
+.\Debug\Wave.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\QUYPS\LOCALS~1\Temp\RSPB72.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+SpectrumAnalysis.exe - 0 error(s), 8 warning(s)
+</pre>
+</body>
+</html>
